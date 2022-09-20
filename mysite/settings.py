@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': dj_database_url(
         default=os.environ["DATABASE_URL"],
-        conn_max_age=600
+        conn_max_age=97
     )
 }
 
