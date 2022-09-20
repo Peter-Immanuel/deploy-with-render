@@ -2,7 +2,8 @@
 
 set -o errexit
 
+poetry shell
 poetry install 
 
-python manage.py collectstatics --no-input
-python manage.py migrate
+python3 manage.py collectstatics --no-input
+python3 manage.py migrate
